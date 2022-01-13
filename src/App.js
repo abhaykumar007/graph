@@ -19,7 +19,7 @@ function App() {
   function graphCalculation() {
     let sum = 0;
     input.forEach((element) => {
-      console.log("element", element.probability);
+      // console.log("element", element.probability);
       sum += parseInt(element.probability);
     });
     // console.log("sum", sum);
@@ -66,10 +66,10 @@ function App() {
       });
       setxAxis(number);
       setyAxis(freq);
-      console.log("arr", arr);
-      console.log("freqRef", freqRef);
-      console.log("freq", freq);
-      console.log("number", number);
+      // console.log("arr", arr);
+      // console.log("freqRef", freqRef);
+      // console.log("freq", freq);
+      // console.log("number", number);
     } else {
       alert("Check probabilities");
     }

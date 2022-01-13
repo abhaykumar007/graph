@@ -10,7 +10,7 @@ import {
 const Graph = (props) => {
   const xAxis = props.xAxis;
   const yAxis = props.yAxis;
-  console.log("xAxis", xAxis, yAxis);
+  // console.log("xAxis", xAxis, yAxis);
   const [data, setData] = useState([]);
 
   // const data = [{ argument: xAxis, value: yAxis }];
