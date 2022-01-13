@@ -1,38 +1,97 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: blanchedalmond;
   min-height: 100vh;
+  height: auto;
+  width: 100vw;
+}
+
+.navbar {
+  width: 100vw;
+  background-color: rgb(60, 60, 214);
+  height: 8vh;
+}
+.App .container {
+  display: flex;
+  justify-content: space-around;
+}
+.container .input-parent {
+  width: 48vw;
+}
+
+.input-parent h1 {
+  font-size: 55px;
+  font-weight: 500;
+}
+.input-parent p {
+  font-size: 25px;
+}
+
+.entro-page h1 {
+  font-size: 55px;
+  font-weight: 500;
+  margin-top: 20vh;
+}
+.entro-page button {
+  font-family: arial;
+  color: white !important;
+  font-size: 28px;
+  padding: 10px 25px;
+  border-radius: 16px;
+  border: 0px solid #3866a3;
+  background: rgb(60, 60, 214);
+}
+.entro-page button:hover {
+  color: black !important;
+  background: rgb(65, 65, 131);
+}
+
+.input-header {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 7vw;
+}
+.input input {
+  font-size: 20px;
+  padding: 2vh;
+  margin: 1vh;
+}
+
+.input-button {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.input-button .add-row button {
+  margin-top: 2vh;
+  font-family: arial;
+  color: #fafafa !important;
+  font-size: 18px;
+  padding: 12px 40px;
+  border-radius: 11px;
+  border: 0px solid #3866a3;
+  background: #363535;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-button .add-row button:hover {
+  color: black !important;
+  background: #d6d2d2;
+  border: 2px solid #363535;
+}
+.input-button .create-graph button {
+  font-family: arial;
+  color: #000000 !important;
+  font-size: 18px;
+  padding: 12px 40px;
+  border-radius: 11px;
+  border: 0px solid #3866a3;
+  background: #00cf0e;
+  margin-top: 2vh;
+}
+.input-button .create-graph button:hover {
+  color: white !important;
+  /* background: #04ac31; */
+  background: #04660b;
+  border: 2px solid #00cf0e;
+}
+.graph {
+  width: 42vw;
 }
